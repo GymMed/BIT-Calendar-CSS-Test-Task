@@ -1,0 +1,63 @@
+* {
+    font-family: 'Roboto';
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.main {
+    text-align: center;
+}
+
+.main-header {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.link-header {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.month-columns {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 10px 15px 15px 15px;
+}
+
+.month-header-row {
+
+}
+
+.month {
+    font-size: 1.2rem;
+}
+
+.month-calendar {
+    padding: 0px 0px 0px 0px;
+}
+
+.month-calendar tbody tr:not(:first-child) td {
+    padding: 0px 10px 2px 10px;
+}
+
+.month-calendar tbody tr:first-child td {
+    padding: 5px 10px 2px 10px;
+}
+
+.weekdays-short {
+    font-size: 0.8rem;
+    padding:0px 12px 0px 12px;
+}
+
+.sundays, .no-work-days {
+    color:red;
+}
